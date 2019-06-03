@@ -1,0 +1,30 @@
+Procedimento de instalacao Express via NPM
+
+Na pasta principal do projeto digite:
+
+# npm init
+
+Neste processo existe algumas opcoes que podem ser alteradas como:
+obs: Tudo em minusculo sem espaco
+
+nome do pacote (default)
+versao (default)
+Descricao
+Ponto de entrada (index.js)
+Comando de teste
+repositorio git
+Palavras chave
+Autor
+Licenca
+Confirmacao
+
+
+Após este processo deverá ser feita a instalação do Express com o seguinte comando:
+
+# npm install express --save
+
+A opção --save inclui as informação de dependencia no package.json isso garante que sempre
+que o projeto for executado haverá a necessidade de ter o módulo d express.
+
+
+
